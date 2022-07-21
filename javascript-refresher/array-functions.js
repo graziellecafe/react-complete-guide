@@ -5,4 +5,4 @@ const doubleArray = numbers.map((num) => {
 })
 
 console.log(numbers); 
-console.log(doubleArray); 
+console.log(doubleArray); //2, 4, 6
