@@ -1,0 +1,30 @@
+/* class name { 
+    properties: properties are like variables attached to classes/objects
+    methods: methods are like functions attached to classes/objects 
+}
+*/ 
+
+class Human { 
+    constructor() {
+        this.gender = 'male'; 
+    }
+
+    printGender() {
+        console.log(this.gender);
+    }
+}
+
+class Person extends Human { 
+    constructor() {
+        super(); 
+        this.name = 'Max'; 
+    }
+
+    printMyName() { 
+        console.log(this.name);
+    }
+}
+
+const person = new Person(); 
+person.printMyName();
+person.printGender();
